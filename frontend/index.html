@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital Queue System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🏥 Hospital Queue Management System</h1>
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h2>📋 Current Queue</h2>
+
+            <button onclick="loadQueue()">
+                Refresh Queue
+            </button>
+
+            <div id="queue"></div>
+        </div>
+
+        <div class="card serving-card">
+            <h2>🔔 Now Serving</h2>
+
+            <div id="serving"></div>
+        </div>
+
+        <div class="card">
+            <h2>📊 Department Statistics</h2>
+
+            <div id="stats"></div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
